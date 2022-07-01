@@ -113,7 +113,6 @@
 		fseek(fp,(ts-1)*sl,SEEK_SET);
 		fread(&customer,sizeof(customer),1,fp);
 		n=customer.number;
-		system("cls");
 		printf("\n Enter customer name: ");
 		scanf("%s",nam);
 		fseek(fp,0,SEEK_SET);
